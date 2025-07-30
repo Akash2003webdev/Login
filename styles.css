@@ -1,0 +1,134 @@
+body{
+    background-color: blueviolet;
+}
+.container{
+    width: 110vh;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 10rem;
+    display: flex;
+    padding: 0;
+    
+    
+}
+.left-box{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black;  */
+    /* padding: 5%; */
+    padding-bottom: 0%;
+}
+.right-box{
+
+    width: 50%;
+    height: 100%;
+    background-image: url("./23.png");
+    background-size:cover;
+    padding: 2rem;
+    font-size: 1rem;
+   
+    color: rgb(250, 252, 252);
+    text-overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    /* opacity: 0.5; */
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       /* border: 2px solid black;  */
+}
+.text{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+input{
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    
+     /* padding: 10px 3rem ; */
+}
+button{
+    color: white;
+     width: 80%;
+    margin-top: 2rem;
+    font-size: 1rem;
+     margin-left: 2rem;
+     margin-bottom: 1rem;
+    padding: 10px 7rem ;
+    background-color: blueviolet;
+    border: none;
+     border-radius: 5px;
+}
+a{
+    font-weight: 500;
+    color: blueviolet;
+     margin-left: 2rem;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.get{
+    
+     margin-left: 4.5rem;
+    
+}
+.link{
+    margin: 0;
+}
+h2{
+opacity: 1;    
+    /* margin-top: 2rem; */
+}
+  
+.input-with-icon {
+      position: relative;
+      /* width: 80%; */
+      border: none;
+    }
+
+    .input-with-icon i {
+      position: absolute;
+      left: 30px;
+      top: 35%;
+      transform: translateY(-50%);
+      color: #888;
+    }
+@media(max-width:600px){
+    .container{
+        flex-direction: column;
+
+        font-size: 2rem;
+        
+    }
+    .right-box{
+        padding: 1rem;
+        margin: 0 auto;
+        width: 80%;
+        order: 1;
+        min-height: 600px;
+       
+    }
+    .top
+    {
+        font-size: 3.6rem;
+    }
+    .img-text{ 
+           font-size: 1.6rem;
+    }
+     .left-box{
+        margin: 0 auto;
+        width: 80%;
+        order: 2;
+        min-height: 600px;
+    }
+
+}
+
+    
+
