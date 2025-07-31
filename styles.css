@@ -102,8 +102,11 @@ opacity: 1;
       color: #888;
     }
  @media (max-width: 768px) {
+  body{
+    align-items: start;
+    margin-top: 2rem;
+  }
       .container {
-    
         flex-direction: column;
         width: 90%;
         min-width: 350px;
